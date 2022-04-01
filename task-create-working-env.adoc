@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task-create-working-env.html 
+keywords: azure netapp files, create working environment, working environment 
+summary: Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manager에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다. 
+---
+= Azure NetApp Files 작업 환경을 만듭니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manager에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다.
+
+.단계
+. Canvas 페이지에서 * 작업 환경 추가 * 를 클릭합니다.
+. Microsoft Azure * 를 선택한 다음 * Azure NetApp Files * 를 선택합니다.
+. 이전에 설정한 AD 응용 프로그램에 대한 세부 정보를 제공합니다.
++
+image:screenshot_anf_details.gif["이름, 응용 프로그램 ID, 클라이언트 암호 및 디렉터리 ID를 포함하는 Azure NetApp Files 작업 환경을 만드는 데 필요한 필드의 스크린샷"]
+
+. 추가 * 를 클릭합니다.
+
+
+이제 Azure NetApp Files 작업 환경이 마련되었어야 합니다.
+
+image:screenshot_anf_we.gif["Azure NetApp Files 작업 환경의 스크린샷."]
+
+link:task-create-volumes.html["볼륨 생성 및 관리를 시작합니다"].

@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: Cloud Manager에서 Azure NetApp Files 지원의 새로운 기능에 대해 알아보십시오. 
+---
+= 새로운 기능
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure NetApp Files in Cloud Manager의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2021년 4월 11일
+
+
+
+=== 볼륨 템플릿 지원
+
+새로운 애플리케이션 템플릿 서비스를 사용하면 Azure NetApp Files용 볼륨 템플릿을 설정할 수 있습니다. 용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.
+
+* https://docs.netapp.com/us-en/cloud-manager-app-template/concept-resource-templates.html["응용 프로그램 템플릿 및 사용자 환경에서 응용 프로그램 템플릿을 사용하는 방법에 대해 알아봅니다"^]
+* link:task-create-volumes.html["템플릿에서 Azure NetApp Files 볼륨을 생성하는 방법을 알아봅니다"]
+
+
+
+
+== 2021년 3월 8일
+
+
+
+=== 서비스 수준을 동적으로 변경
+
+이제 볼륨의 서비스 수준을 동적으로 변경하여 워크로드 요구사항을 충족하고 비용을 최적화할 수 있습니다. 볼륨은 볼륨에 영향을 주지 않고 다른 용량 풀로 이동됩니다.
+
+link:task-manage-volumes.html#change-the-volumes-service-level["볼륨의 서비스 수준을 변경하는 방법을 알아보십시오"].
+
+
+
+== 2020년 8월 3일
+
+
+
+=== Azure NetApp Files 설정 및 관리
+
+Cloud Manager에서 직접 Azure NetApp Files 설정 및 관리 Azure NetApp Files 작업 환경을 만든 후 다음 작업을 수행할 수 있습니다.
+
+* NFS 및 SMB 볼륨을 생성합니다.
+* 용량 풀 및 볼륨 스냅샷을 관리합니다
++
+Cloud Manager를 사용하면 볼륨 스냅샷을 생성, 삭제 및 복원할 수 있습니다. 새 용량 풀을 생성하고 해당 서비스 수준을 지정할 수도 있습니다.
+
+* 크기를 변경하고 태그를 관리하여 볼륨을 편집합니다.
+
+
+Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는 기능은 이전의 데이터 마이그레이션 기능을 대체합니다.
+
+
+
+== 2020년 4월 5일
+
+
+
+=== Azure NetApp Files로 데이터 마이그레이션
+
+이제 NFS 또는 SMB 데이터를 Cloud Manager에서 Azure NetApp Files로 직접 마이그레이션할 수 있습니다. 데이터 동기화는 NetApp의 Cloud Sync 서비스에서 제공합니다.

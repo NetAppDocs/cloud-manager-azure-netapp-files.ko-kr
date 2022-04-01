@@ -1,0 +1,15 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: Azure NetApp Files is a Microsoft Azure native, high performance file storage service for your core business applications. This documentation describes how to set up and manage Azure NetApp Files by using NetApp Cloud Manager. 
+summary: Azure NetApp Files는 핵심 비즈니스 애플리케이션을 위한 Microsoft Azure 네이티브 고성능 파일 스토리지 서비스입니다. 이 문서에서는 NetApp Cloud Manager를 사용하여 Azure NetApp Files를 설정하고 관리하는 방법에 대해 설명합니다. 
+---
+= Azure NetApp Files 설명서
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

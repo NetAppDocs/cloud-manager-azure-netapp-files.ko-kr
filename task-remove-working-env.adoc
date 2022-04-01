@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task-remove-working-env.html 
+keywords: remove azure netapp files, remove anf, remove working environment 
+summary: 이렇게 하면 Azure NetApp Files이 Cloud Manager에서 제거됩니다. Azure NetApp Files 계정 또는 볼륨은 삭제되지 않습니다. 언제든지 Azure NetApp Files를 Cloud Manager에 다시 추가할 수 있습니다. 
+---
+= Azure NetApp Files를 제거합니다
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+이렇게 하면 Azure NetApp Files이 Cloud Manager에서 제거됩니다. Azure NetApp Files 계정 또는 볼륨은 삭제되지 않습니다. 언제든지 Azure NetApp Files를 Cloud Manager에 다시 추가할 수 있습니다.
+
+.단계
+. Azure NetApp Files 작업 환경을 엽니다.
+. 페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * Azure NetApp Files 제거 * 를 클릭합니다.
++
+image:screenshot_anf_remove.gif["Azure NetApp Files 제거를 클릭하여 Cloud Manager 인터페이스에서 볼륨을 제거하는 스크린샷"]
+
+. 확인하려면 * 제거 * 를 클릭합니다.
+
