@@ -100,19 +100,14 @@
   <block id="111f8adcabf0dbf53cb2df15a658fa78" category="summary">Cloud Manager에서 Azure NetApp Files 지원의 새로운 기능에 대해 알아보십시오.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
   <block id="38846f2e814afa2a7bb17dd217e62420" category="paragraph">Azure NetApp Files in Cloud Manager의 새로운 기능에 대해 알아보십시오.</block>
-  <block id="13c380d451c296cda1d1289b9dc25114" category="section-title">2021년 4월 11일</block>
   <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">볼륨 템플릿 지원</block>
   <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">새로운 애플리케이션 템플릿 서비스를 사용하면 Azure NetApp Files용 볼륨 템플릿을 설정할 수 있습니다. 용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.</block>
   <block id="65d2e55c231c87b516e734e63f823cf5" category="inline-link">응용 프로그램 템플릿 및 사용자 환경에서 응용 프로그램 템플릿을 사용하는 방법에 대해 알아봅니다</block>
   <block id="cd05e30aad2bf16b78d020365a79dcae" category="list-text"><block ref="cd05e30aad2bf16b78d020365a79dcae" category="inline-link-rx"></block></block>
   <block id="1636ba950a663744d701c73060d64523" category="inline-link-macro">템플릿에서 Azure NetApp Files 볼륨을 생성하는 방법을 알아봅니다</block>
-  <block id="7c71a00ffc85c076da82cb46fe08c3e9" category="list-text"><block ref="7c71a00ffc85c076da82cb46fe08c3e9" category="inline-link-macro-rx"></block></block>
-  <block id="1758589feb07955b2d0a7b0b09d739c8" category="section-title">2021년 3월 8일</block>
   <block id="de5b4c52cc860c2f7cacca0bb7f4265f" category="section-title">서비스 수준을 동적으로 변경</block>
   <block id="65ade213f17aabb636c7c98c83fa9121" category="paragraph">이제 볼륨의 서비스 수준을 동적으로 변경하여 워크로드 요구사항을 충족하고 비용을 최적화할 수 있습니다. 볼륨은 볼륨에 영향을 주지 않고 다른 용량 풀로 이동됩니다.</block>
   <block id="f89e84889d5fd0c46e9997ddb21ac922" category="inline-link-macro">볼륨의 서비스 수준을 변경하는 방법을 알아보십시오</block>
-  <block id="44018d380623b1a890936411e2d032ce" category="paragraph"><block ref="62d875c6bc4ea91f55b1d274c3b3a04d" category="inline-link-macro-rx"></block>.</block>
-  <block id="4385db6cd2d63e547180bf0e667fe804" category="section-title">2020년 8월 3일</block>
   <block id="629ca03a8a495acd7bc18927ca4da6cc" category="section-title">Azure NetApp Files 설정 및 관리</block>
   <block id="51faca1c58439a1d1223104a28f554cc" category="paragraph">Cloud Manager에서 직접 Azure NetApp Files 설정 및 관리 Azure NetApp Files 작업 환경을 만든 후 다음 작업을 수행할 수 있습니다.</block>
   <block id="a42ed9034f13a0f6a3660f2c241f605f" category="list-text">NFS 및 SMB 볼륨을 생성합니다.</block>
@@ -120,7 +115,6 @@
   <block id="e54595e40dfd177a2a9e671c794a3a4d" category="paragraph">Cloud Manager를 사용하면 볼륨 스냅샷을 생성, 삭제 및 복원할 수 있습니다. 새 용량 풀을 생성하고 해당 서비스 수준을 지정할 수도 있습니다.</block>
   <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">크기를 변경하고 태그를 관리하여 볼륨을 편집합니다.</block>
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는 기능은 이전의 데이터 마이그레이션 기능을 대체합니다.</block>
-  <block id="a2eb09579e2fa44c07cf82cfba775030" category="section-title">2020년 4월 5일</block>
   <block id="02a58c551f186d8f833147198d69fb26" category="section-title">Azure NetApp Files로 데이터 마이그레이션</block>
   <block id="8d30064c294030bc7a1446fe0cf94ca9" category="paragraph">이제 NFS 또는 SMB 데이터를 Cloud Manager에서 Azure NetApp Files로 직접 마이그레이션할 수 있습니다. 데이터 동기화는 NetApp의 Cloud Sync 서비스에서 제공합니다.</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">작업 환경을 설정한 후 Azure NetApp Files 계정, 용량 풀 및 볼륨을 생성할 수 있습니다.</block>
@@ -260,4 +254,10 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+  <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021년 4월 11일</block>
+  <block id="5651031c9f0714bccf2089b101c736e0" category="list-text"><block ref="5651031c9f0714bccf2089b101c736e0" category="inline-link-rx"></block></block>
+  <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021년 3월 8일</block>
+  <block id="1ae0904e8670b3e6cfc9006eb635216b" category="paragraph"><block ref="e311d6cb2bd5a49340f86a76ff0511b7" category="inline-link-rx"></block>.</block>
+  <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020년 8월 3일</block>
+  <block id="173fd2f937506a4111b0bc09349619a8" category="section-title">2020년 4월 5일</block>
 </blocks>
