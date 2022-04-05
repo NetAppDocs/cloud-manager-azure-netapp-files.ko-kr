@@ -6,6 +6,7 @@ summary: 이렇게 하면 Azure NetApp Files이 Cloud Manager에서 제거됩니
 ---
 = Azure NetApp Files를 제거합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

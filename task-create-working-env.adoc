@@ -6,6 +6,7 @@ summary: Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manag
 ---
 = Azure NetApp Files 작업 환경을 만듭니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

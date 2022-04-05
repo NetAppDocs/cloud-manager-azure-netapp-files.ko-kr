@@ -6,6 +6,7 @@ summary: 다음 단계를 따라 빠르게 시작하거나 나머지 섹션으�
 ---
 = Azure NetApp Files를 빠르게 시작합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
