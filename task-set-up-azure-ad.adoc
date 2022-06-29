@@ -89,7 +89,13 @@ image:screenshot_azure_access_control.gif["Azure 포털에서 사용자 지정 �
 [source, json]
 ----
 "actions": [
-    "Microsoft.NetApp/*"
+    "Microsoft.NetApp/*",
+    "Microsoft.Resources/resources/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/write",
+    "Microsoft.Network/virtualNetworks/read",
+    "Microsoft.Insights/Metrics/Read"
     ],
 ----
 .. 저장 * 을 클릭하고 * 다음 * 을 클릭한 다음 * 생성 * 을 클릭합니다.
